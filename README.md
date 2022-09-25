@@ -41,3 +41,8 @@ docker run --rm -v "${PWD}:/local" openapitools/openapi-generator-cli generate \
     -g go \
     -o "/local/out/go"
 ```
+
+# 参考記事
+
+- swagger Codegenの説明だけど、同じようにできる
+    - https://qiita.com/Quramy/items/c583f3213f0b77ff1bac
