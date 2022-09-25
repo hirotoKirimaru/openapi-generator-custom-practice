@@ -14,12 +14,22 @@ javaのspringは素直にspringでいいらしい。
 java -jar libs/openapi-generator-cli-6.2.0.jar generate \
    -i https://raw.githubusercontent.com/openapitools/openapi-generator/master/modules/openapi-generator/src/test/resources/3_0/petstore.yaml \
    -g spring \
-   -o output/spring
+   -o output/spring \
+   -t templates/JavaSpring
 ```
 
 ※ swagger codegenの場合、javaSpringだった気がする。
 
 
+```bash
+# help?
+java -jar libs/openapi-generator-cli-6.2.0.jar help generate
+```
+
+-  springの生成時の使い方
+    - https://github.com/OpenAPITools/openapi-generator/blob/master/docs/generators/spring.md
+- 公式側で用意しているテンプレート
+    - https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator/src/main/resources/JavaSpring
 
 
 # 動かないやつ
