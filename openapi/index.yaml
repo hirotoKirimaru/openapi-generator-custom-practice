@@ -700,6 +700,11 @@ components:
         name:
           type: string
           example: doggie
+          x-validations-isbn13: true
+#            isbn13: true
+#            string:
+#              byteCount: 30
+#              wordCount: 10
         photoUrls:
           type: array
           xml:
