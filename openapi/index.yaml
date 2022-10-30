@@ -701,6 +701,8 @@ components:
           type: string
           example: doggie
           x-validations-isbn13: true
+          x-validations:
+            isbn13: true
 #            isbn13: true
 #            string:
 #              byteCount: 30
