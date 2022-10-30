@@ -20,6 +20,16 @@ java -jar libs/openapi-generator-cli-6.2.0.jar generate \
 
 ※ swagger codegenの場合、javaSpringだった気がする。
 
+```bash
+# ローカルファイルを使用する
+java -jar libs/openapi-generator-cli-6.2.0.jar generate \
+   -i openapi/index.yaml \
+   -g spring \
+   -o output/spring \
+   -t templates/JavaSpring
+
+```
+
 
 ```bash
 # help?
